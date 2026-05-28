@@ -6,11 +6,10 @@
 [![Live Dashboard](https://img.shields.io/badge/Live%20Dashboard-ele--vision.vercel.app-green)](https://ele-vision.vercel.app/)
 [![YOLOv8](https://img.shields.io/badge/AI-YOLOv8-blue)](https://ultralytics.com)
 [![Raspberry Pi](https://img.shields.io/badge/Hardware-Raspberry%20Pi%205-red)](https://www.raspberrypi.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
 ---
 
-## 📌 About the Project
+## 📌 About the Project  [![PPT]](https://www.raspberrypi.org/)
 
 EleVision is a real-time **AI + IoT system** that detects elephant movement near forest-village boundaries and instantly alerts villagers and forest officers — preventing dangerous human-elephant encounters before they happen.
 
@@ -106,6 +105,17 @@ The model was trained on a custom elephant dataset and tested across different c
 
 > Detection images from model testing are in the `/docs/results/` folder.
 
+### Sample Detections
+
+<p align="center">
+  <img src="docs/results/t2.jpg" width="45%" />
+  <img src="docs/results/t3.jpg" width="45%" />
+</p>
+<p align="center">
+  <img src="docs/results/test12.jpg" width="45%" />
+  <img src="docs/results/val_batch2_labels.jpg" width="45%" />
+</p>
+
 ---
 
 
@@ -120,37 +130,6 @@ The model was trained on a custom elephant dataset and tested across different c
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/EleVision.git
-cd EleVision
-```
-
-### 2. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Run detection (Raspberry Pi)
-```bash
-python hardware/elephant_detection.py
-```
-
-### 4. Run backend API
-```bash
-uvicorn backend.app:app --host 0.0.0.0 --port 8000
-```
-
-### 5. Run frontend dashboard
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
----
 
 ## 📋 requirements.txt
 
@@ -210,16 +189,3 @@ Team ID: 75267 | PS ID: SIH25167
 Theme: Smart Automation | Category: Hardware
 
 ---
-
-## 📜 License
-
-MIT License © 2025 Team EleVision. Built for educational and research purposes under SIH 2025.
-
----
-
-## ⭐ Support
-
-If this project helped you or you find it interesting:
-- ⭐ Star the repository
-- 🍴 Fork and contribute
-- 📢 Share with others working on wildlife conservation tech
