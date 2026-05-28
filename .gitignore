@@ -1,0 +1,54 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# Mac files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Model files (optional)
+*.pt
+*.pth
+*.tflite
+
+# Dataset folders (optional)
+datasets/
+data/
+
+# YOLO runs
+runs/
+
+# Logs
+*.log
+
+# Build files
+build/
+dist/
+
+# Environment variables
+.env
+
+# Temporary files
+temp/
+tmp/
+
+
+
+# Saved models
+Saved_Models/
+trained_model4/
