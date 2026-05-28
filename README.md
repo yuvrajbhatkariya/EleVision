@@ -104,7 +104,7 @@ The model was trained on a custom elephant dataset and tested across different c
 | Herd (multiple elephants) | ✅ Elephants | 0.90 |
 | Dense vegetation (side view) | ✅ Elephant | 0.64 |
 
-> Detection images from model testing are in the `/docs/results/` folder.
+> Detection images from model testing are in the `/Result/` folder.
 
 ### Sample Detections
 
