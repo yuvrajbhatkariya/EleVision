@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 About the Project | [[PPT]](https://drive.google.com/file/d/11CVGOXaU0THJchz3pN2b8bWxsIxiXUvq/view?usp=sharing)
+## 📌 About the Project   |   [[PPT]](https://drive.google.com/file/d/11CVGOXaU0THJchz3pN2b8bWxsIxiXUvq/view?usp=sharing)
 
 EleVision is a real-time **AI + IoT system** that detects elephant movement near forest-village boundaries and instantly alerts villagers and forest officers — preventing dangerous human-elephant encounters before they happen.
 
@@ -43,7 +43,7 @@ Most affected areas lack any early warning infrastructure, especially in remote 
 
 ## 🏗️ System Architecture
 
-```
+<!-- ```
 PIR Motion Sensor
        ↓
 Camera + Audio Activated
@@ -62,8 +62,9 @@ Elephant Detected?
     Forest Officer & Villager Notified
           ↓
     GPS Location Stored → Movement Prediction
-```
+``` -->
 
+![Flow Diagram](Result/flow.png)
 ---
 
 ## 🛠️ Tech Stack
@@ -110,10 +111,6 @@ The model was trained on a custom elephant dataset and tested across different c
 <p align="center">
   <img src="Result/t3.jpg" width="45%" />
   <img src="Result/val_batch2_labels.jpg" width="45%" />
-</p>
-<p align="center">
-  <img src="docs/results/test12.jpg" width="45%" />
-  <img src="docs/results/val_batch2_labels.jpg" width="45%" />
 </p>
 
 ---
